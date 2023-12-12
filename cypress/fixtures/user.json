@@ -1,0 +1,66 @@
+{
+    "test_pwd": [
+        {
+            "username": "test0",
+            "email": "test0@gmail.com",
+            "password": "123"
+        },
+        {
+            "username": "test1",
+            "email": "test1@gmail.com",
+            "password": "123456"
+        },
+        {
+            "username": "test2",
+            "email": "test2@gmail.com",
+            "password": "passwordtest"
+        },
+        {
+            "username": "test3",
+            "email": "test3@gmail.com",
+            "password": "!%$@%@^!"
+        },
+        {
+            "username": "test4",
+            "email": "test4@gmail.com",
+            "password": "t3stpwd2@!"
+        },
+        {
+            "username": "test5",
+            "email": "test5@gmail.com",
+            "password": "TESTpwd34@"
+        },
+        {
+            "username": "test6",
+            "email": "test6@gmail.com",
+            "password": "t3stpwd2t3stpwd2t3stpwd2t3stpwd2t3stpwd2"
+        }
+    ],
+    "empty": {
+        "username": "nidaregitaf",
+        "email": "nida@gmail.com",
+        "password": "123456"
+    },
+    "invalid_email": {
+        "username": "nidaregitaf",
+        "email": "nidagmail.com",
+        "password": "123456"
+    },
+    "already_exists": [
+        {
+            "username": "nidaregitaf",
+            "email": "test7@gmail.com",
+            "password": "123456"
+        },
+        {
+            "username": "test7",
+            "email": "nida@gmail.com",
+            "password": "123456"
+        }
+    ],
+    "new": {
+        "username": "test7",
+        "email": "test7@gmail.com",
+        "password": "123456"
+    }
+}
