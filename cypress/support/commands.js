@@ -27,3 +27,25 @@
 Cypress.Commands.add('getDataTest', (dataTestSelector) => {
     return cy.get(`[data-test="${dataTestSelector}"]`)
 })
+
+Cypress.Commands.add('login', (email, password) => {
+    cy.session([email, password], () => {
+        cy.visit('/')
+        cy.getDataTest('email-input').type(email)
+        cy.getDataTest('password-input').type(password)
+        cy.getDataTest('login-button').click()
+        cy.getDataTest('username').should('be.visible')
+    },
+        {
+            cacheAcrossSpecs: true
+        }
+    )
+})
+
+Cypress.Commands.add('create_task', (desc, status) => {
+    cy.getDataTest('newtask').click()
+    cy.get('textarea').type(desc)
+    cy.getDataTest('new_task_status').select(status)
+    cy.getDataTest('save_button').click()
+    cy.getDataTest('addtask').should('not.exist')
+})

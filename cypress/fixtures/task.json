@@ -1,0 +1,25 @@
+{
+  "task_status": [
+    {
+      "value": "todo",
+      "option": "Todo",
+      "desc": "Task 1: Membuat test case document1!",
+      "long_desc": "Task 1: Membuat test case document1!Task 1: Membuat test case document1!Task 1: Membuat test case document1!Task 1: Membuat test case document1!Task 1: Membuat test case document1!"
+    },
+    {
+      "value": "on progress",
+      "option": "On Progress",
+      "desc": "Task 2: Membuat test case document2!",
+      "long_desc": "Task 2: Membuat test case document1!Task 1: Membuat test case document1!Task 1: Membuat test case document1!Task 1: Membuat test case document1!Task 1: Membuat test case document1!"
+    },
+    {
+      "value": "done",
+      "option": "Done",
+      "desc": "Task 3: Membuat test case document3!",
+      "long_desc": "Task 3: Membuat test case document1!Task 1: Membuat test case document1!Task 1: Membuat test case document1!Task 1: Membuat test case document1!Task 1: Membuat test case document1!"
+    }
+  ],
+  "task_desc": {
+    "desc": "Task 1: Membuat test case document!"
+  }
+}
